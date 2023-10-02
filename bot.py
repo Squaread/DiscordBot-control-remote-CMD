@@ -60,7 +60,7 @@ async def cmd(ctx, *, command):
     # Send the output parts as messages
     for part in output_parts:
         await ctx.send(f'```\n{part}```')
-@limit.error
+@cmd.error
 async def cmd_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
         pass
