@@ -5,11 +5,11 @@ Windows only.
 
 Run the script as administrator to have CMD administrator mode (optional).
 ## Commands
-`;cmd <command>` - Run command in CMD.
+`;cmd <command>` - Run command in CMD
 
-`;limit <number>` - Limits the maximum number of characters per message. If the OUTPUT TOO LONG error occurs, lower the limit (by default, the limit is 1950).
+`;limit <number>` - Limits the maximum number of characters per message. If the OUTPUT TOO LONG error occurs, lower the limit (by default, the limit is 1950)
 
-`;exit` - Shutdown bot.
+`;exit` - Shutdown bot
 
 ## Run in the background
 If you want the script to run in the background, download pythonw using `pip install pythonw`. After that, change the file extension to .pyw. First, test the script, as running in the background may make error messages invisible.
